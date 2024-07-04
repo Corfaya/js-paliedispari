@@ -14,3 +14,9 @@ function palindrome(word) {
 let userWord = prompt("Inserisci una parola")
 // Function invocation with userWord as a parameter
 palindrome(userWord)
+
+// ========== SECOND EXERCISE ==========
+// DICHIARAZIONE DELLE FUNZIONI
+function random() {
+    return Math.floor(Math.random() * 5 + 1)
+}

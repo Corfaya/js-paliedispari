@@ -42,7 +42,6 @@ Dichiariamo chi ha vinto.
     - Salvo tutto in una variabile che chiamo "userNum"
 - Invoco la funzione "random" in una variabile (pcNum)
 - Dichiaro una variabile di somma e le do valore userNum + pcNum
-<!-- - Dichiaro una variabile con nome "isEven" impostata su false (il numero è dispari) -->
 - Dichiaro una variabile per il risultato finale ("tot")
 - SE la somma è pari (richiamo della funzione even() nella condizione)
     - Assegno al risultato finale "pari"

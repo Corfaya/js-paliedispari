@@ -15,7 +15,9 @@ Dichiariamo chi ha vinto.
 ## Flow 1
 - Dichiaro una funzione con parametro "word"
     - Scrivo delle istruzioni:
-        - Inverto l'ordine delle lettere con reverse()
+        - Suddivido l'input in singole lettere restituendole in un array, che chiamo "reverseWord"
+        - Inverto l'ordine delle lettere
+        - Riunisco in una stringa le lettere per formare la nuova parola
         - SE il valore dell'input è identico alla stringa invertita
             Stampo su console `La parola "${word}" è palindroma. Letta al contrario è "${reverseWord}"`
         - Altrimenti

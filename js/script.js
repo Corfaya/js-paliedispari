@@ -5,8 +5,8 @@ function palindrome(word) {
     let reverseWord = word.split("").reverse().join("");
     // If word's value is the same of reverseWord's value, the word is a palindrome
     if (word == reverseWord) {
-        console.log(`La parola "$(word)" è palindroma. Letta al contrario è "${reverseWord}"`)
+        console.log(`La parola "${word}" è palindroma. Letta al contrario è "${reverseWord}"`)
     } else {
-
+        console.log(`La parola "${word}" non è palindroma. Letta al contrario è "${reverseWord}"`)
     }
 }

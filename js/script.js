@@ -10,3 +10,5 @@ function palindrome(word) {
         console.log(`La parola "${word}" non è palindroma. Letta al contrario è "${reverseWord}"`)
     }
 }
+// variables for user input
+let userWord = prompt("Inserisci una parola")

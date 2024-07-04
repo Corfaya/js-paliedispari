@@ -19,8 +19,8 @@ Dichiariamo chi ha vinto.
         - Inverto l'ordine delle lettere
         - Riunisco in una stringa le lettere per formare la nuova parola
         - SE il valore dell'input è identico alla stringa invertita
-            Stampo su console `La parola "$(word)" è palindroma. Letta al contrario è "${reverseWord}"`
+            Stampo su console `La parola "${word}" è palindroma. Letta al contrario è "${reverseWord}"`
         - Altrimenti
-            Stampo su console `La parola "$(word)" non è palindroma. Letta al contrario è "${reverseWord}"`
+            Stampo su console `La parola "${word}" non è palindroma. Letta al contrario è "${reverseWord}"`
 - Chiedo all'utente di inserire una parola e salvo il valore in una variabile
 - Chiamo la funzione inserendo come parametro la variabile appena creata

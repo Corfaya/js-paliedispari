@@ -35,3 +35,9 @@ let sum = pcNum + userNum
 let tot;
 if (even(sum)) {tot = "pari"}
 else {tot = "dispari"}
+//
+if (tot === userSelection) {
+    console.log(`Hai scelto ${userSelection} e il numero ${userNum}. Il numero del pc è ${pcNum} e la somma finale è ${tot}: hai vinto!`)
+} else {
+    console.log(`Hai scelto ${userSelection} e il numero ${userNum}. Il numero del pc è ${pcNum} e la somma finale è ${tot}: hai perso!`)
+}

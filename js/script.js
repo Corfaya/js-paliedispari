@@ -23,3 +23,5 @@ function random() {
 function even(num) {
     return num % 2 === 0
 }
+// even or odd variable
+let userSelection = prompt("Pari o dispari?").toLowerCase()

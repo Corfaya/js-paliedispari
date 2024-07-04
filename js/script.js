@@ -31,4 +31,7 @@ let userNum = parseInt(prompt("Scegli un numero da 1 a 5"))
 let pcNum = random();
 // sum variable
 let sum = pcNum + userNum
-console.log(pcNum, sum)
+// result: is even or odd? change the value of "tot" according to the conditions
+let tot;
+if (even(sum)) {tot = "pari"}
+else {tot = "dispari"}

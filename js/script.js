@@ -20,3 +20,6 @@ palindrome(userWord)
 function random() {
     return Math.floor(Math.random() * 5 + 1)
 }
+function even(num) {
+    return num % 2 === 0
+}

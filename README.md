@@ -30,9 +30,9 @@ Dichiariamo chi ha vinto.
     - Scrivo la seguente istruzione:
         - Restituire un numero randomico tra 1 e 5 compresi, evitando numeri decimali
 
-- Dichiaro una funzione con ritorno e con parametro "num", e la chiamo "evenOrOdd"          davedere
-    - Scrivo la seguente istruzione                                                         davedere
-        - Restituire se è vero o falso che num è pari                                       davedere
+- Dichiaro una funzione con ritorno e con parametro "num", e la chiamo "even"          
+    - Scrivo la seguente istruzione                                                       
+        - Restituire se è vero o falso che num è pari                                     
 
 - (Step 1) Chiedo all'utente di scegliere tra pari e dispari
     - Rendo minuscolo il valore inserito dall'utente
@@ -40,6 +40,15 @@ Dichiariamo chi ha vinto.
 - (Step 2) Chiedo all'utente di inserire un numero da 1 a 5
     - Rendo numerica la risposta dell'utente (parseInt())
     - Salvo tutto in una variabile che chiamo "userNum"
-- Invoco la funzione in una variabile (pcNum)
+- Invoco la funzione "random" in una variabile (pcNum)
 - Dichiaro una variabile di somma e le do valore userNum + pcNum
-- SE 
+<!-- - Dichiaro una variabile con nome "isEven" impostata su false (il numero è dispari) -->
+- Dichiaro una variabile per il risultato finale ("tot")
+- SE la somma è pari (richiamo della funzione even() nella condizione)
+    - Assegno al risultato finale "pari"
+- ALTRIMENTI
+    - Assegno al risultato finale "dispari"
+- SE il risultato finale corrisponde alla scelta dell'utente tra pari e dispari
+    - Stampo su console `Hai scelto ${userSelection} e il numero ${userNum}. Il numero del pc è ${pcNum} La somma è ${tot}: hai vinto!`
+- ALTRIMENTI
+    - Stampo su console `Hai scelto ${userSelection} e il numero ${userNum}. Il numero del pc è ${pcNum} La somma è ${tot}: hai perso!`

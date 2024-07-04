@@ -25,3 +25,5 @@ function even(num) {
 }
 // even or odd variable
 let userSelection = prompt("Pari o dispari?").toLowerCase()
+// 1-5 number variable
+let userNum = parseInt(prompt("Scegli un numero da 1 a 5"))

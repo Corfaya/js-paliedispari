@@ -1,8 +1,8 @@
 // ========== FIRST EXERCISE ==========
 // DICHIARAZIONE DELLA FUNZIONE
 function palindrome(word) {
-    // With split("") method, create an array with single letters. With reverse() methos, reverse the order of the array elements. With join("") method, combine the elements into a string, without commas
-    let reverseWord = word.split("").reverse().join("");
+    // With reverse() method, reverse the order of the letters
+    let reverseWord = word.reverse();
     // If word's value is the same of reverseWord's value, the word is a palindrome
     if (word == reverseWord) {
         console.log(`La parola "${word}" è palindroma. Letta al contrario è "${reverseWord}".`)

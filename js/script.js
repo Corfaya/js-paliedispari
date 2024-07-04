@@ -27,3 +27,8 @@ function even(num) {
 let userSelection = prompt("Pari o dispari?").toLowerCase()
 // 1-5 number variable
 let userNum = parseInt(prompt("Scegli un numero da 1 a 5"))
+// pc random number has to be saved in a variable
+let pcNum = random();
+// sum variable
+let sum = pcNum + userNum
+console.log(pcNum, sum)

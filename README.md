@@ -5,7 +5,7 @@ Chiedere all’utente di inserire una parola.
 Creare una funzione per capire se la parola inserita è palindroma
 
 ## TRACCIA 2
-L’utente inserisce prima  "pari" o "dispari" poi inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+L’utente inserisce prima "pari" o "dispari" poi inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
@@ -24,3 +24,8 @@ Dichiariamo chi ha vinto.
             Stampo su console `La parola "${word}" non è palindroma. Letta al contrario è "${reverseWord}"`
 - Chiedo all'utente di inserire una parola e salvo il valore in una variabile
 - Chiamo la funzione inserendo come parametro la variabile appena creata
+
+## Flow 2
+- Dichiaro una funzione con ritorno senza parametri e la chiamo "random"
+    - Scrivo la seguente istruzione:
+        - Restituire un numero randomico tra 1 e 5 compresi, evitando numeri decimali

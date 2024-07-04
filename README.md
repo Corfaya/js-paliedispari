@@ -15,12 +15,12 @@ Dichiariamo chi ha vinto.
 ## Flow 1
 - Dichiaro una funzione con parametro "word"
     - Scrivo delle istruzioni:
-        - Suddivido l'input in singole lettere restituendole in un array, che chiamo "reverse_word"
+        - Suddivido l'input in singole lettere restituendole in un array, che chiamo "reverseWord"
         - Inverto l'ordine delle lettere
         - Riunisco in una stringa le lettere per formare la nuova parola
         - SE il valore dell'input è identico alla stringa invertita
-            Stampo su console `La parola "$(word)" è palindroma. Letta al contrario è "${reverse_word}"`
+            Stampo su console `La parola "$(word)" è palindroma. Letta al contrario è "${reverseWord}"`
         - Altrimenti
-            Stampo su console `La parola "$(word)" non è palindroma. Letta al contrario è "${reverse_word}"`
+            Stampo su console `La parola "$(word)" non è palindroma. Letta al contrario è "${reverseWord}"`
 - Chiedo all'utente di inserire una parola e salvo il valore in una variabile
 - Chiamo la funzione inserendo come parametro la variabile appena creata

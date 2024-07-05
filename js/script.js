@@ -3,18 +3,17 @@
 function palindrome(word) {
 /* //--------- WITH REVERSE
   //      let reverseWord = word.split("").reverse().join("");
-  // If word's value is the same of reverseWord's value, the word is a palindrome
   //      if (word == reverseWord) {
   //          console.log(`La parola "${word}" è palindroma. Letta al contrario è "${reverseWord}".`)
   //      } else {
   //          console.log(`La parola "${word}" non è palindroma. Letta al contrario è "${reverseWord}".`)
   //      } */
-
   //------------ WITH FOR ----------
   let reverseWord = "";
   for (let k = word.length - 1; k >= 0; k--) {
     reverseWord += word[k];
   }
+  // si poteva anche dividere la stringa a metà e verificare carattere 0 con carattere length - 1, poi 1 e length - i - 1 ecc
   if (reverseWord == word) {
     console.log(`La parola "${word}" è palindroma.`);
   } else {
@@ -34,22 +33,16 @@ function random() {
 function even(num) {
     return num % 2 === 0
 }
-// even or odd variable
-let userSelection = prompt("Pari o dispari?").toLowerCase()
-// CHECK userSelection's value
-while (userSelection !== "pari" || userSelection !== "dispari") {
+
+let userSelection = prompt("Scrivi 'pari' o 'dispari'").toLowerCase();
+while (userSelection !== "pari" && userSelection !== "dispari") {
     userSelection = prompt("Errore. Scrivi 'pari' o 'dispari'").toLowerCase()
-    if (userSelection == "pari" || userSelection == "dispari") {
-        break
-    }
 }
+
 // 1-5 number variable
 let userNum = parseInt(prompt("Scegli un numero da 1 a 5"))
-while (userNum < 1 || userNum > 5) {
+while (userNum < 1 || userNum > 5 || isNaN(userNum)) {
     userNum = parseInt(prompt("Non hai scelto un numero compreso tra 1 e 5. Riprova"))
-    if (userNum == 1 || userNum == 2 || userNum == 3 || userNum == 4 || userNum == 5) {
-        break
-    }
 }
 // pc random number has to be saved in a variable
 let pcNum = random();
